@@ -1,0 +1,1 @@
+I think `setLerp` does not work, so here is an example of the bug. It's a simple scene with two peices of text. Pressing enter switches the object that the camera follows. I would expect it to slowly move from one text to the next, but it immediately changes, even though `setLerp` is called with a value < 1.0
